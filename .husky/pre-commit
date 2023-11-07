@@ -10,9 +10,9 @@ echo '
 └─┘ ┴ ┴ ┴┴└─ ┴ '
 
 # Formatting
-npm run fix 
+npm run format 
+npm run lint
 
-git add .
 
 # Check Prettier standards
 npm run check-format ||
