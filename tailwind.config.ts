@@ -20,6 +20,42 @@ const config: Config = {
       mediaHover: { raw: '(hover: hover)' },
     },
 
+    colors: {
+      primary: {
+        DEFAULT: '#0B6D93',
+        100: '#A0E7FF',
+        200: '#7FC7F1',
+        300: '#5EA8D1',
+        400: '#3C8AB2',
+        500: '#126F96',
+        600: '#0B6D93', // Main color
+        700: '#004468', // Main opacity and overlay color
+        800: '#00395B',
+        900: '#02183F',
+      },
+      blue: {
+        300: '#56A0C9',
+        400: '#00BFFF',
+        500: '#00A1F2',
+        600: '#3B70A3',
+        700: '#1369A9',
+      },
+      green: {
+        500: '#008958',
+        600: '#007550',
+        700: '#006151',
+        800: '#004651',
+      },
+      white: {
+        DEFAULT: '#FFFFFF',
+      },
+      black: {
+        DEFAULT: '#001C27',
+      },
+      danger: '#AC4246',
+      transparent: 'transparent',
+    },
+
     // THEME
     extend: {
       // CONTAINER
