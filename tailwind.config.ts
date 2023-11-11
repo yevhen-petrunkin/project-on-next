@@ -56,7 +56,15 @@ const config: Config = {
       transparent: 'transparent',
     },
 
-    // THEME
+    //BOX SHADOW
+    boxShadow: {
+      'shadow-1': '0px 0px 16px rgba(2, 24, 63, 0.5)',
+      'shadow-2': '0px 0px 32px rgba(2, 24, 63, 0.6)',
+      'shadow-3': '0px 0px 64px rgba(2, 24, 63, 0.7)',
+      'shadow-4': '0px 0px 120px rgba(2, 24, 63, 0.9)',
+      'shadow-5': '0px 0px 240px rgb(2, 24, 63)',
+    },
+
     extend: {
       // CONTAINER
       container: {
