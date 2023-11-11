@@ -1,9 +1,13 @@
+import '@/styles/globals.css';
+
 import cn from 'classnames';
 
 import type { Metadata } from 'next';
 import { notosans } from '@/fonts';
 
-import '@/styles/globals.css';
+import headerData from '@/data/header.json';
+
+import { Header } from '@/sections';
 
 export const metadata: Metadata = {
   title: 'Next.js App',
@@ -18,8 +22,12 @@ export default function RootLayout({
   return (
     <html lang="uk">
       <body
-        className={cn('overflow-x-hidden bg-primary-800', notosans.className)}
+        className={cn(
+          'overflow-x-hidden bg-primary-800 text-white',
+          notosans.className,
+        )}
       >
+        <Header staticData={headerData.header.navbar} />
         {children}
       </body>
     </html>

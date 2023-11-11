@@ -1,0 +1,63 @@
+{
+  "header": {
+    "navbar": {
+      "logoMenu": {
+        "logo": {
+          "link": "./",
+          "src": "/images/logo.png",
+          "alt": "Логотип",
+          "label": "Клікабельний логотип"
+        },
+        "iconBtn": {
+          "btnLabel": "Меню",
+          "iconLabel": "Іконка меню"
+        }
+      },
+      "navMenu": [
+        {
+          "id": "nav-menu-01",
+          "title": "Головна",
+          "path": "./"
+        },
+        {
+          "id": "nav-menu-02",
+          "title": "Теми",
+          "tag": "#main-menu"
+        },
+        {
+          "id": "nav-menu-03",
+          "title": "Блог",
+          "path": "./"
+        },
+        {
+          "id": "nav-menu-04",
+          "title": "Дошка",
+          "path": "./"
+        },
+        {
+          "id": "nav-menu-05",
+          "title": "Контакти",
+          "tag": "#footer"
+        }
+      ],
+      "userMenu": {
+        "account": {
+          "btnLabel": "Зайти в акаунт",
+          "iconLabel": "Ваш аватар"
+        },
+        "logOut": {
+          "btnLabel": "Вийти",
+          "iconLabel": "Іконка виходу"
+        },
+        "signIn": {
+          "btnLabel": "Зареєструватися",
+          "iconLabel": "Іконка реєстрації"
+        },
+        "logIn": {
+          "btnLabel": "Увійти",
+          "iconLabel": "Іконка входу"
+        }
+      }
+    }
+  }
+}

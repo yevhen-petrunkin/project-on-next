@@ -6,10 +6,6 @@
   --index: calc(1vw + 1vh);
 }
 
-body {
-  @apply text-white;
-}
-
 /* ----------- Utility CSS --------------- */
 
 .visually-hidden {
@@ -24,4 +20,62 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+/* Flexbox */
+
+.fx-center {
+  @apply flex items-center justify-center;
+}
+
+.fx-col-center {
+  @apply flex flex-col items-center justify-center;
+}
+
+.fx-start {
+  @apply flex items-center justify-start;
+}
+
+.fx-end {
+  @apply flex items-center justify-end;
+}
+
+.fx-row {
+  @apply flex flex-row;
+}
+
+.fx-col {
+  @apply flex flex-col;
+}
+
+.fx-between {
+  @apply items-center justify-between;
+}
+
+/* Text Shadows */
+
+.txt-shadow-1 {
+  text-shadow: 0px 0px 8px rgba(2, 24, 63, 0.8);
+}
+
+.txt-shadow-2 {
+  text-shadow: 0px 0px 16px rgba(2, 24, 63, 0.8);
+}
+
+.txt-shadow-3 {
+  text-shadow: 0px 0px 24px rgba(2, 24, 63, 0.8);
+}
+
+.txt-shadow-4 {
+  text-shadow: 0px 0px 32px rgba(2, 24, 63, 0.8);
+}
+
+.txt-shadow-5 {
+  text-shadow: 0px 0px 40px rgba(2, 24, 63, 0.8);
+}
+
+/* NAVBAR */
+
+.nav-interaction {
+  @apply transition-opacity duration-300 hover:opacity-70 focus:opacity-70;
 }
