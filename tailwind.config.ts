@@ -10,13 +10,16 @@ const config: Config = {
   theme: {
     // MEDIA QUERIES
     screens: {
-      sm: '480px',
+      tn: '460px',
+      sm: '600px',
       md: '768px',
+      lg: '1024px',
       xl: '1280px',
+      '2xl': '1536px',
 
-      smOnly: { max: '767.98px' },
-      mdOnly: { min: '768px', max: '1279.98px' },
-      notXl: { max: '1279.98px' },
+      smOnly: { max: '599px' },
+      mdOnly: { min: '600px', max: '1023px' },
+      notXl: { max: '1279px' },
       mediaHover: { raw: '(hover: hover)' },
     },
 

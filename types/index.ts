@@ -34,3 +34,12 @@ export type NavbarT = {
   navMenu: NavMenuItemT[];
   userMenu: UserMenuT;
 };
+
+export type HeroLayerT = {
+  id: string;
+  smUrl: string;
+  mdUrl: string;
+  lgUrl: string;
+  alt: string;
+  label: string;
+};

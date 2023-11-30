@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "title": {
+      "upper": "Lorem",
+      "lower": "Ipsum"
+    },
+    "layers": [
+      {
+        "heroLayer": {
+          "id": "00",
+          "smUrl": "/images/small/hero/hero-bg-0.jpg",
+          "mdUrl": "/images/middle/hero/hero-bg-0.jpg",
+          "lgUrl": "/images/large/hero/hero-bg-0.jpg",
+          "alt": "Морський пейзаж",
+          "label": "Фонове зображення морського пейзажу"
+        },
+        "extraStyles": "hero__layer--0"
+      },
+      {
+        "heroLayer": {
+          "id": "01",
+          "smUrl": "/images/small/hero/hero-bg-1.png",
+          "mdUrl": "/images/middle/hero/hero-bg-1.png",
+          "lgUrl": "/images/large/hero/hero-bg-1.png",
+          "alt": "Хвиля",
+          "label": "Зображення морської хвилі"
+        },
+        "extraStyles": "hero__layer--1"
+      },
+      {
+        "heroLayer": {
+          "id": "02",
+          "smUrl": "/images/small/hero/hero-bg-2.png",
+          "mdUrl": "/images/middle/hero/hero-bg-2.png",
+          "lgUrl": "/images/large/hero/hero-bg-2.png",
+          "alt": "Корабель вікінгів",
+          "label": "Зображення корабля вікінгів"
+        },
+        "extraStyles": "hero__layer--2"
+      },
+      {
+        "heroLayer": {
+          "id": "03",
+          "smUrl": "/images/small/hero/hero-bg-3.png",
+          "mdUrl": "/images/middle/hero/hero-bg-3.png",
+          "lgUrl": "/images/large/hero/hero-bg-3.png",
+          "alt": "Хвиля",
+          "label": "Зображення морської хвилі"
+        },
+        "extraStyles": "hero__layer--3"
+      },
+      {
+        "heroLayer": {
+          "id": "04",
+          "smUrl": "/images/small/hero/hero-bg-4.png",
+          "mdUrl": "/images/middle/hero/hero-bg-4.png",
+          "lgUrl": "/images/large/hero/hero-bg-4.png",
+          "alt": "Хвиля",
+          "label": "Зображення морської хвилі"
+        },
+        "extraStyles": "hero__layer--4"
+      },
+      {
+        "heroLayer": {
+          "id": "05",
+          "smUrl": "/images/small/hero/hero-bg-5.png",
+          "mdUrl": "/images/middle/hero/hero-bg-5.png",
+          "lgUrl": "/images/large/hero/hero-bg-5.png",
+          "alt": "Хвиля",
+          "label": "Зображення морської хвилі"
+        },
+        "extraStyles": "hero__layer--5"
+      }
+    ]
+  }
+}

@@ -6,7 +6,7 @@ import { IUserMenuProps } from './UserMenu.props';
 import { IconBtn } from '@/components';
 
 const UserMenu: React.FC<IUserMenuProps> = ({ staticData }) => {
-  const user = true;
+  const user = false;
 
   return (
     <>

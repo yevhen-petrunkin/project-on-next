@@ -18,7 +18,7 @@ const IconBtn: React.FC<IIconBtnProps> = ({
       className={cn('fx-center nav-interaction overflow-hidden', {
         'text-current border-current h-10 w-10 rounded-full border-2 bg-transparent':
           variant.toLowerCase() === 'head',
-        extraStyles: extraStyles,
+        [extraStyles]: extraStyles,
       })}
       onClick={onClick}
       aria-label={staticData.btnLabel}
