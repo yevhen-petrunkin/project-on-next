@@ -5,9 +5,7 @@ import cn from 'classnames';
 import type { Metadata } from 'next';
 import { notosans } from '@/fonts';
 
-import headerData from '@/data/header.json';
-
-import { Header } from '@/sections';
+import { Header, Footer } from '@/sections';
 
 export const metadata: Metadata = {
   title: 'Next.js App',
@@ -27,8 +25,13 @@ export default function RootLayout({
           notosans.className,
         )}
       >
-        <Header staticData={headerData.header.navbar} />
-        {children}
+        <Header />
+        <div className="wrapper ">
+          <div className=" body-bg content mx-auto 2xl:max-w-[1600px]">
+            {children}
+            <Footer />
+          </div>
+        </div>
       </body>
     </html>
   );

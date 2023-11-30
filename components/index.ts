@@ -12,3 +12,7 @@ export { default as UserMenu } from '@/components/Navbar/UserMenu/UserMenu';
 // BUTTONS
 
 export { default as IconBtn } from '@/components/Buttons/IconBtn/IconBtn';
+
+// HERO LAYER
+
+export { default as HeroLayer } from '@/components/HeroLayer/HeroLayer';
